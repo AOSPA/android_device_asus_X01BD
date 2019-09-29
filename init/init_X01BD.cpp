@@ -94,5 +94,6 @@ void vendor_load_properties()
 {
 	property_override("ro.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
 	property_override("vendor.audio_hal.period_multiplier", "2");
+	property_override("vendor.audio.adm.buffering.ms", "6");
 	dalvik_properties();
 }
