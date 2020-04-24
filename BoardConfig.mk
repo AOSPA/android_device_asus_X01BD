@@ -159,6 +159,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 USE_SENSOR_MULTI_HAL := true
 
 # Sepolicy
+TARGET_USES_PREBUILT_VENDOR_SEPOLICY := true
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     $(DEVICE_PATH)/sepolicy/private
 
