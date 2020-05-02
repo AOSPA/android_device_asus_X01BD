@@ -45,7 +45,8 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.common@4.0-util \
     android.hardware.audio@4.0-impl \
     android.hardware.audio.effect@4.0 \
-    android.hardware.audio.effect@4.0-impl
+    android.hardware.audio.effect@4.0-impl \
+    audio.primary.sdm660
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/audio_effects.xml \
