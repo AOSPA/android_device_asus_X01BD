@@ -11,6 +11,7 @@ ro.bluetooth.emb_wp_mode=true
 ro.bluetooth.wipower=true
 bt.max.hfpclient.connections=1
 persist.bt.a2dp.aac_disable=true
+persist.vendor.btstack.enable.splita2dp=true
 
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam
