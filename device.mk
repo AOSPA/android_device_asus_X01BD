@@ -107,10 +107,6 @@ TARGET_COMMON_QTI_COMPONENTS := \
     perf \
     telephony
 
-# USB
-PRODUCT_PACKAGES += \
-	android.hardware.usb@1.0-service.x01bd
-
 # WFD
 PRODUCT_PACKAGES += \
     libaacwrapper \
